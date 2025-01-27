@@ -69,4 +69,16 @@ body{
 
 }
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 1141px) {
+    body{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    
+    }
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1272px) {
+    body{
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+    
+    }
